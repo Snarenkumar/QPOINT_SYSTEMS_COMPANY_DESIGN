@@ -1,0 +1,63 @@
+/* navbar section */
+.navbar {
+    height: 70px;
+    width: 1500px;
+    background-color: bisque;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+
+}
+
+.logo {
+    background-image: url(/actual_images/logo-removebg-preview.png);
+    background-size: cover;
+    width: 177px;
+    height: 77px;
+    position: relative;
+    bottom: 11px;
+
+
+
+
+}
+
+.logo2 {
+    background-image: url(/actual_images/logo2_nobackground.png);
+    background-size: cover;
+    width: 177px;
+    height: 77px;
+    position: relative;
+    bottom: 11px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  
+  text-align: center;
+  padding: 16px;
+}
+
+.dropdown ul {
+    list-style-position: outside;
+
+    list-style-type: none;
+    
+
+
+}
+
+.dropdown li {
+    float: left;
+
+}
