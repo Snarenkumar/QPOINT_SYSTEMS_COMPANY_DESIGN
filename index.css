@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     padding-left: 50px;
+    justify-content: center;
 
 }
 
@@ -42,21 +43,23 @@
 .dropdown a {
     text-decoration: none;
     color: black;
-    
-  
-  
-  padding-right: 50px;
-  
+
+
+
+    padding-right: 50px;
+
 }
-.list{
+
+.list {
     padding-right: 50px;
 }
+
 .dropdown ul {
     list-style-position: outside;
 
     list-style-type: none;
-    
-    
+
+
 
 
 }
@@ -66,3 +69,29 @@
     margin-right: 50px;
 
 }
+
+.search {
+    position: relative;
+    right: 328px;
+    top: 8px;
+
+
+}
+
+input[type=text] {
+    width: 252px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: fixed;
+    
+}
+
