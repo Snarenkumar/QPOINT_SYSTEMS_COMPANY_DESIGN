@@ -72,7 +72,7 @@
 
 .search {
     position: relative;
-    right: 328px;
+    right: 354px;
     top: 8px;
 
 
@@ -92,6 +92,7 @@ input[type=text] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     position: fixed;
+    font-weight: 592;
     
 }
 
