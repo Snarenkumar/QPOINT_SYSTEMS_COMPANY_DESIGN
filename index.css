@@ -86,9 +86,9 @@ input[type=text] {
     font-size: 16px;
     background-color: white;
     background-image: url('./actual_images/search.png');
-    background-position: 8px 7px;
+    background-position: 14px 7px;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 12px 68px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     position: fixed;
