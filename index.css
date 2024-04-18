@@ -132,3 +132,16 @@ input[type=text] {
     top: 4px;
     
 }
+.page1 section{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.page1_left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    background-color: aqua;
+}
