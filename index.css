@@ -119,3 +119,16 @@ input[type=text] {
     
 
 }
+.nightmode {
+    background-image: url(./actual_images/moo_nobg.png);
+    image-resolution:initial ;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 0px;
+    position: relative;
+    right: 40px;
+    top: 4px;
+    
+}
