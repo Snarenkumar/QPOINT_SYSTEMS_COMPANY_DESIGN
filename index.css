@@ -136,10 +136,10 @@ input[type=text] {
 
 
 /* ! now we are starting the main first page */
-.page1 section {
+.page1{
     display: flex;
     flex-direction: row;
-    
+
 
 
 }
@@ -185,6 +185,7 @@ input[type=text] {
     font-weight: 400;
     font-style: normal;
 }
+
 .split {
     display: flex;
     flex-direction: row;
@@ -192,23 +193,42 @@ input[type=text] {
     bottom: 60px;
 }
 
-.content{
+.content {
     position: relative;
     bottom: 64px;
-  font-size: 20px;
+    font-size: 20px;
 
 }
+
 .img_cube {
     background-image: url(./actual_images/cube1.png);
-    
+
     background-size: cover;
     width: 60px;
     height: 60px;
 
 
 }
-.margin{
-   
-    position: relative;
-    left: 300px;
+
+
+.page1_left1 {
+    width: 557px;
+    
+    font-size: 18px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.page1_right1 {
+    width: 557px;
+    font-size: 18px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*?sucessfully completed the first side of first page */
+
+
+.img_right {
+    margin-top: 50px;
+} 
