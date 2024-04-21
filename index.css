@@ -2,7 +2,7 @@
 .navbar {
     height: 70px;
     width: 1500px;
-    background-color: bisque;
+    
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -231,4 +231,5 @@ input[type=text] {
 
 .img_right {
     margin-top: 50px;
+    margin-left: 61px;
 } 
