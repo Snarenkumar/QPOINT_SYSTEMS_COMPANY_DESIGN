@@ -295,4 +295,6 @@ input[type=text] {
 }
 .page1_right{
     margin-top: 50px;
+    border: 15px;
+    border-color: black;
 }
