@@ -2,11 +2,13 @@
 .navbar {
     height: 70px;
     width: 1500px;
-    
+
+
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     padding-left: 50px;
+
 
     justify-content: space-evenly;
 
@@ -136,7 +138,7 @@ input[type=text] {
 
 
 /* ! now we are starting the main first page */
-.page1{
+.page1 {
     display: flex;
     flex-direction: row;
 
@@ -209,11 +211,21 @@ input[type=text] {
 
 
 }
+.content p {
+    font-size: 18px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para{
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 
 
 .page1_left1 {
     width: 557px;
-    
+
     font-size: 18px;
     margin-right: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -231,4 +243,53 @@ input[type=text] {
 .img_right {
     margin-top: 50px;
     margin-left: 61px;
-} 
+}
+
+
+
+/*! second page is staring now */
+
+.second_page {
+    display: flex;
+    flex-direction: row;
+
+    /* background-color: blue; */
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+
+}
+
+.page2_left {
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 78px;
+   
+
+
+    width: 55%;
+    height: 622px;
+    /* background-color: yellow; */
+}
+
+.secondpage_txt1 h1{
+    font-size: 63px;
+    line-height: 10px;
+
+}
+.inside {
+    font-size: 25px;
+}
+.left_smallbox {
+    width:559px;
+}
+.signup button{
+    border-radius: 0%;
+    padding: 10px 20px 10px 20px ;
+    background-color: #010001;
+    color: #dddddd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
