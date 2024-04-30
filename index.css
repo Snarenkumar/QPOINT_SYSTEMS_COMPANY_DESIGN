@@ -360,3 +360,49 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+
+
+
+
+/* !page 2 completed  */
+/* !now we are staring the page 3  */
+
+#third_page{
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: 40px; 
+}
+.reviews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.heading_3 h1{
+    font-size: 91px;
+    margin-bottom: 50px;
+
+}
+#para_textmove {
+    position: relative;
+    bottom: 35px;
+    padding-left: 20px;
+    font-size:  25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+
+}
+.reviews_content {
+    width: 100%;
+    background-color: aqua;
+    height: 401px;
+    display: flex;
+    flex-direction: row;
+}
+.card1 {
+    width: 60px;
+    height: 401px;
+        background-color: #010001;
+}
