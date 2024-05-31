@@ -444,20 +444,10 @@ img {
     flex-direction: row;
 }
 
-.card {
-    width: 606px;
-    height: 701px;
-    
-    margin-left: 15px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-
-}
 
 .img_background {
-    width: 488px;
-    height: 180px;
+    width: 432px;
+  height: 142px;
     background-color: #2d3093;
 
 
@@ -471,7 +461,7 @@ img {
 }
 
 .swiper {
-    height: 518px;
+    height: 400px;
 }
 
 .checked {
