@@ -165,11 +165,14 @@ input[type=text] {
     /* IE 10 and IE 11 */
     user-select: none;
 }
-
+.intro {
+    padding-top: 86px;
+}
 .intro p {
     font-size: 21px;
     font-family: ' Bodoni Italic', Courier, monospace;
     font-weight: 989;
+    
 
 }
 
@@ -494,4 +497,26 @@ img {
 }
 .thought p {
     font-size: 14px;
+}
+
+/*! this is the address part */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+
+}
+.witten_address {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 622px;
+    background-color: cadetblue;
+}
+.google_map_address {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 622px;
+    background-color: black;
 }
