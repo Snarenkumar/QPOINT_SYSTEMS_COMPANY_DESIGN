@@ -506,6 +506,19 @@ img {
     flex-direction: row;
 
 }
+.intro_contact {
+    margin-top: 50px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: violet;
+
+}
+.actual_map {
+    display: flex;
+    flex-direction: column;
+}
 .witten_address {
     display: flex;
     flex-direction: row;
