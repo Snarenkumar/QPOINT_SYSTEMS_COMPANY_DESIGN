@@ -484,7 +484,7 @@ img {
   flex-direction: row;
   width: 50%;
   height: 622px;
-  background-color: black;
+  /* background-color: black; */
 }
 .intro_contact{
     justify-content: center;
