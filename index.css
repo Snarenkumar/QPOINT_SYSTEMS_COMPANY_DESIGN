@@ -471,7 +471,7 @@ img {
   flex-direction: row;
   width: 30%;
   height: 622px;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   justify-content: start;
 }
 .witten_address h3 {
@@ -510,7 +510,7 @@ img {
 .letter_space{
     letter-spacing: 13px;
 }
-.dark_mode{
+/* .dark_mode{
     background-color: #2d3093;
     color: #f2f2f2;
-}
+} */
