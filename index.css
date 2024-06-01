@@ -463,13 +463,16 @@ img {
 .actual_map {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  
 }
 .witten_address {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 30%;
   height: 622px;
   background-color: cadetblue;
+  justify-content: start;
 }
 .google_map_address {
   display: flex;
