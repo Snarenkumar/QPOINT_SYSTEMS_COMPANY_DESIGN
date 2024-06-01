@@ -458,7 +458,7 @@ img {
   margin-left: 50px;
   width: 100%;
   height: 183px;
-  background-color: violet;
+  /* background-color: violet; */
 }
 .actual_map {
   display: flex;
@@ -477,4 +477,26 @@ img {
   width: 50%;
   height: 622px;
   background-color: black;
+}
+.intro_contact{
+    justify-content: center;
+    text-align: center;
+}
+.intro_contact h1 {
+    font-size: 70px;
+  line-height: 10px;
+  letter-spacing: 13px;
+}
+.intro_contact h3 {
+    font-size: 37px;
+  line-height: 55px;
+  letter-spacing: 13px;
+
+}
+.letter_space{
+    letter-spacing: 13px;
+}
+.dark_mode{
+    background-color: #2d3093;
+    color: #f2f2f2;
 }
