@@ -490,12 +490,12 @@ img {
     justify-content: center;
     text-align: center;
 }
-#img_h3 img{
+/* #img_h3 img{
     width: 50px;
     height: 50px; 
     padding-right: 15px;
     margin-left: 38px;
-}
+} */
 .intro_contact h1 {
     font-size: 70px;
   line-height: 10px;
