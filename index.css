@@ -521,6 +521,11 @@ img {
   font-size: 23px;
   font-weight: 500;
 }
+.phone_number {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
 .icon1 {
   margin-top: 15px;
 }
