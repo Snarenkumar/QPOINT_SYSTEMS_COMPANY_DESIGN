@@ -489,6 +489,7 @@ img {
 .intro_contact{
     justify-content: center;
     text-align: center;
+    
 }
 /* #img_h3 img{
     width: 50px;
@@ -514,3 +515,13 @@ img {
     background-color: #2d3093;
     color: #f2f2f2;
 } */
+
+.icons_address {
+  display: flex;
+  flex-direction: column;
+  background-color: #717171;
+  
+  width: 100%;
+  height: 622px;
+  
+}
