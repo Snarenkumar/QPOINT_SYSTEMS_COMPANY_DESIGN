@@ -529,3 +529,8 @@ img {
 .icon1 {
   margin-top: 15px;
 }
+.fas {
+  display: flex;
+  flex-direction: row;
+  
+}
